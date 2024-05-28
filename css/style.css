@@ -14,6 +14,7 @@ body{
 .container-full{
     width: 100%;
     position: fixed;
+    z-index: 1;
 }
 
 .row{
@@ -53,10 +54,6 @@ p{
 
 /*RULES MAIN*/
 
-main{
-    margin: 20px;
-}
-
 .container{
     max-width: 1200px;
     margin: 0 auto;
@@ -72,11 +69,15 @@ main{
 
 .contentmain{
     margin: 10px;
+    position: relative;
 }
 
 .label{
     padding: 10px;
     color: white;
+    position: absolute;
+    bottom: 40px;
+    left: 0;
 }
 
 .green{
@@ -87,6 +88,20 @@ main{
     background-color: red;
 }
 
+.label-green{
+    padding: 10px;
+    color: white;
+    position: absolute;
+    bottom: 40px;
+    left: 65px;
+    background-color: green;
+}
+
+
 /*RULES FOOTER*/
 
 /*ID*/
+
+#mt-100{
+    margin-top: 100px;
+}
