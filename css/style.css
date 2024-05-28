@@ -76,7 +76,7 @@ p{
     padding: 10px;
     color: white;
     position: absolute;
-    bottom: 40px;
+    bottom: 100px;
     left: 0;
 }
 
@@ -92,7 +92,7 @@ p{
     padding: 10px;
     color: white;
     position: absolute;
-    bottom: 40px;
+    bottom: 100px;
     left: 65px;
     background-color: green;
 }
