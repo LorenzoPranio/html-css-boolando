@@ -104,6 +104,7 @@ footer{
     background-color: rgb(20, 20, 20);
 }
 
+
 .col-50{
     width: calc(100% / 2);
 }
@@ -123,6 +124,12 @@ li{
 
 hr{
     color: white;
+}
+
+.minilogosocial{
+    width: 20px;
+    padding-top: 15px;
+    margin-left: 481px;
 }
 
 /*ID*/
