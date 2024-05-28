@@ -117,7 +117,7 @@ ul{
 li{
     font-size: small;
     display: inline-block;
-    margin-top: 5px;
+    margin-top: 15px;
     margin-right: 5px;
     margin-bottom: 30px;
 }
@@ -127,9 +127,20 @@ hr{
 }
 
 .minilogosocial{
-    width: 20px;
+    width: 25px;
     padding-top: 15px;
-    margin-left: 481px;
+    margin-left: 456px;
+    margin-bottom: 50px;
+}
+
+.minilogof{
+    width: 25px;
+    padding-top: 15px;
+    margin-bottom: 50px;
+}
+
+.mt-15{
+    margin-top: 15px;
 }
 
 /*ID*/
@@ -140,4 +151,9 @@ hr{
 
 #ta-end{
     text-align: end;
+    margin-right: 10px;
+}
+
+#ml-20{
+    margin-left: 110px;
 }
