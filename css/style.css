@@ -33,18 +33,18 @@ body{
 .logo{
     width: 145px;
     height: auto;
-    padding: 20px;
+    padding: 15px;
 }
 
 p{
     color: white;
-    padding-top: 22px;
+    padding-top: 17px;
     font-weight: bold;
 }
 
 .minilogo{
     width: 20px;
-    padding-top: 20px;
+    padding-top: 15px;
 }
 
 .bg-orange{
@@ -52,6 +52,27 @@ p{
 }
 
 /*RULES MAIN*/
+
+main{
+    margin: 20px;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.col-30{
+    width: calc(100% / 3);
+}
+
+
+.bg-green{
+    background-color: green;
+    border: 1px solid black;
+    height: 300px;
+    margin: 10px;
+}
 
 /*RULES FOOTER*/
 
