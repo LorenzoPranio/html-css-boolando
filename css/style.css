@@ -66,12 +66,25 @@ main{
     width: calc(100% / 3);
 }
 
+.photo{
+    width: 100%;
+}
 
-.bg-green{
-    background-color: green;
-    border: 1px solid black;
-    height: 300px;
+.contentmain{
     margin: 10px;
+}
+
+.label{
+    padding: 10px;
+    color: white;
+}
+
+.green{
+    background-color: green;
+}
+
+.red{
+    background-color: red;
 }
 
 /*RULES FOOTER*/
