@@ -107,6 +107,21 @@ p{
     background-color: white;
 }
 
+.d-block{
+    display: block;
+}
+
+.d-none{
+    display: none;
+}
+
+.contentmain:hover .d-block{
+    display: none;
+}
+
+.contentmain:hover .d-none{
+    display: block;
+}
 
 
 /*RULES FOOTER*/
