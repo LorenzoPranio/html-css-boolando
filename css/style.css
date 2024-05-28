@@ -117,10 +117,12 @@ p{
 
 .contentmain:hover .d-block{
     display: none;
+    cursor: pointer;
 }
 
 .contentmain:hover .d-none{
     display: block;
+    cursor: pointer;
 }
 
 
