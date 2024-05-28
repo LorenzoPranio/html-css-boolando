@@ -11,6 +11,46 @@ body{
 
 /*RULES HEADER*/
 
+.container-full{
+    width: 100%;
+    position: fixed;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-33{
+    width: calc(100% / 3);
+}
+
+.content{
+    justify-content: center;
+    text-align: center;
+}
+
+.logo{
+    width: 145px;
+    height: auto;
+    padding: 20px;
+}
+
+p{
+    color: white;
+    padding-top: 22px;
+    font-weight: bold;
+}
+
+.minilogo{
+    width: 20px;
+    padding-top: 20px;
+}
+
+.bg-orange{
+    background-color: rgb(255, 140, 46);
+}
+
 /*RULES MAIN*/
 
 /*RULES FOOTER*/
