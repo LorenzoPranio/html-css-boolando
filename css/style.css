@@ -100,8 +100,37 @@ p{
 
 /*RULES FOOTER*/
 
+footer{
+    background-color: rgb(20, 20, 20);
+}
+
+.col-50{
+    width: calc(100% / 2);
+}
+
+ul{
+    color: white;
+    list-style: none;
+}
+
+li{
+    font-size: small;
+    display: inline-block;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 30px;
+}
+
+hr{
+    color: white;
+}
+
 /*ID*/
 
 #mt-100{
     margin-top: 100px;
+}
+
+#ta-end{
+    text-align: end;
 }
